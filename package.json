@@ -9,6 +9,7 @@
   "author": "Tom Baranowicz",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
     "franc": "^5.0.0",
     "node-notifier": "^7.0.0",
     "nodemailer": "^6.6.3",

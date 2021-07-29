@@ -1,5 +1,18 @@
 const Twit = require('twit')
 var nodemailer = require('nodemailer');
+var express = require('express');  
+
+
+var app = express();  
+app.get('/', function (req, res) {  
+  res.send('Welcome to JavaTpoint!');  
+});  
+var server = app.listen(8000, function () {  
+  var host = server.address().address;  
+  var port = server.address().port;  
+  console.log('Example app listening at http://%s:%s', host, port);  
+}); 
+
 
 const apikey = 'Q8UbwJB0J2yTZq98CPmq6eKa5'
 const apiSecretKey = 'IgjTcZJ5A1zOG4KBRAmWGPp0KugEkeGaci3olgTH6r9WSUiEwC'
