@@ -5,7 +5,7 @@ var express = require('express');
 
 var app = express();  
 app.get('/', function (req, res) {  
-  res.send('Welcome to JavaTpoint!');  
+  res.send('Welcome to Twitter Monitoring Bot!');  
 });  
 var server = app.listen(8000, function () {  
   var host = server.address().address;  
@@ -42,7 +42,7 @@ var T = new Twit({
   
   var mailOptions = {
     from: 'shivkumar.a@legasis.in',
-    to: 'shivkumar.a@legasis.in,raja.s@legasis.in'
+    to: 'shivkumar.a@legasis.in'
   };
  
 
