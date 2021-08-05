@@ -44,7 +44,7 @@ var T = new Twit({
   
   var mailOptions = {
     from: 'socialmediafeeds@legasis.in',
-    to: 'shivkumar.a@legasis.in'
+    to: 'socialmediafeeds@legasis.in'
   };
  
 
