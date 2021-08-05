@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
 var server = app.listen(8000, function () {  
   var host = server.address().address;  
   var port = server.address().port;  
-  console.log('Example app listening at http://%s:%s', host, port);  
+  // console.log('Example app listening at http://%s:%s', host, port);  
 }); 
 
 
@@ -35,13 +35,13 @@ var T = new Twit({
   var transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: 'shivkumar.a@legasis.in',
-      pass: 'Lega#2020'
+      user: 'socialmediafeeds@legasis.in',
+      pass: 'Social@Hacks123'
     }
   });
   
   var mailOptions = {
-    from: 'shivkumar.a@legasis.in',
+    from: 'socialmediafeeds@legasis.in',
     to: 'shivkumar.a@legasis.in'
   };
  
